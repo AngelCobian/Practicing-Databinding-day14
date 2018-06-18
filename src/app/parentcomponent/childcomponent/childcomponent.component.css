@@ -1,0 +1,18 @@
+button{
+  border-radius: 7px;
+  background-color: white;
+  /* color: white; */
+
+}
+button:active{
+  background-color: lightblue;
+  color: white;
+}
+button:hover{
+  background: blue;
+  color: white;
+}
+button:disabled{
+  background-color: rgba(144, 243, 243, 0.267);
+  color: lightgray;
+}
